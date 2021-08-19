@@ -1,0 +1,1 @@
+Este archivo solo sirve para que la carpeta res aparezca en el repo. El archivo de la base de datos se creara la primera vez que se corra el programa
