@@ -96,7 +96,7 @@
 					
 			
 	\newpage	
-	\section{Instalación o ejecución}
+	\section{Descarga y ejecución}
 		Para este apartado se necesitara noción de comandos en Linux.
 		\subsection{Requisitos del sistema}		
 		Para la instalación y ejecución de este programa deberá tener instalado el software de control de versiones \textbf{git} y el interprete de Python en este caso en su versión \textbf{python3}. 
@@ -107,14 +107,53 @@
 		\begin{lstlisting}
 		git clone https://github.com/jcontrerasroberto/isw-practica1.git
 		\end{lstlisting}
-		Después ingresaremos a la carpeta que contiene los archivos del programa
 		
+		\subsection{Ejecución}	
+		Después de descargar el repositorio ingresaremos a la carpeta que contiene los archivos del programa
 		\begin{lstlisting}
 		cd isw-practica1 
 		\end{lstlisting}
+		\newpage
+		 Otorgamos permisos de ejecución al script run.sh y lo corremos
 		
-	\section{Ejecución y pruebas}
+		\begin{lstlisting}
+		chmod +x run.sh
+		./run.sh
+		\end{lstlisting}
+		O en su defecto corremos el programa directamente con el comando:
+		\begin{lstlisting}
+		python3 src/main.py
+		\end{lstlisting}
+		
+		De ahora en adelante solo tendrás que entrar a la carpeta isw-practica1 y correr el script run.sh para iniciar el programa
+		
+	\newpage	
 	
+	\section{Funcionamiento y pruebas}
+	
+		La primera vez que ejecutemos el programa pedirá que ingresemos una nueva contraseña de seguridad. Ingresamos la contraseña y damos enter.
+	
+		\includegraphics[scale=0.7]{cap1}\newline
+
+		Las siguientes veces que iniciemos el programa pedirá la contraseña creada la primera vez.
+	
+		\includegraphics[scale=0.7]{cap2}\newline
+
+		Después de ingresar la contraseña observaremos un menú donde el usuario puede escoger.
+	
+		\includegraphics[scale=0.7]{cap3}
+	
+		\subsection{Agregar cliente}
+			Para usar esta función ingresaremos \textbf{1} en el menú. El programa nos pedirá los datos, iremos ingresandolos y apretando enter hasta que se registre al usuario. 
+			
+			\includegraphics[scale=0.7]{cap4}
+			
+		\subsection{Modificar cliente}
+			Para usar esta función ingresaremos \textbf{2} en el menú. El programa nos pedirá el alias al cliente a modificar y una vez que lo encuentre empezará a pedir los datos actualizados. Nota: Si no se quiere actualizar un campo solo dar enter dejando la entrada vaciá. 
+			
+			\includegraphics[scale=0.7]{cap4}\newline
+	
+	\newpage
 	\section{Consideraciones}
 
 \end{document}

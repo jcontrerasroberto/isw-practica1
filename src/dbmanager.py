@@ -85,7 +85,6 @@ def update_client(alias, client):
         lista =  list(client)
         for x in range(len(lista)-1):
             if lista[x]=="":
-                print(lista[x] + "==" + entry[x+1])
                 lista[x] = entry[x+1]
         client = tuple(lista)
         cursor.execute("""

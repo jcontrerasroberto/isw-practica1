@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.18)  19 AUG 2021 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.18)  19 AUG 2021 16:42
 entering extended mode
 **./Test.tex
 (Test.tex
@@ -419,18 +419,84 @@ Overfull \hbox (98.94543pt too wide) in paragraph at lines 108--109
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[5] (Test.aux
+[5] [6]
+<cap1.png, id=115, 580.41844pt x 122.70844pt>
+File: cap1.png Graphic file (type png)
+<use cap1.png>
+Package pdftex.def Info: cap1.png  used on input line 136.
+(pdftex.def)             Requested size: 406.29013pt x 85.89531pt.
+
+Overfull \hbox (33.91495pt too wide) in paragraph at lines 136--137
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+<cap2.png, id=116, 577.40718pt x 113.67468pt>
+File: cap2.png Graphic file (type png)
+<use cap2.png>
+Package pdftex.def Info: cap2.png  used on input line 140.
+(pdftex.def)             Requested size: 404.18228pt x 79.57172pt.
+
+Overfull \hbox (31.8071pt too wide) in paragraph at lines 140--141
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+<cap3.png, id=117, 579.66562pt x 223.58531pt>
+File: cap3.png Graphic file (type png)
+<use cap3.png>
+Package pdftex.def Info: cap3.png  used on input line 144.
+(pdftex.def)             Requested size: 405.76317pt x 156.50864pt.
+
+Overfull \hbox (33.38799pt too wide) in paragraph at lines 144--145
+[][] 
+ []
+
+[7 <./cap1.png (PNG copy)> <./cap2.png (PNG copy)> <./cap3.png (PNG copy)>]
+<cap4.png, id=122, 573.64313pt x 228.855pt>
+File: cap4.png Graphic file (type png)
+<use cap4.png>
+Package pdftex.def Info: cap4.png  used on input line 149.
+(pdftex.def)             Requested size: 401.54745pt x 160.1974pt.
+
+Overfull \hbox (29.17227pt too wide) in paragraph at lines 149--150
+[][] 
+ []
+
+File: cap4.png Graphic file (type png)
+<use cap4.png>
+Package pdftex.def Info: cap4.png  used on input line 154.
+(pdftex.def)             Requested size: 401.54745pt x 160.1974pt.
+
+Overfull \hbox (29.17227pt too wide) in paragraph at lines 154--155
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[8 <./cap4.png (PNG copy)>] [9] (Test.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `Test.out' has not changed.
-(rerunfilecheck)             Checksum: 3214DF65D6D5EBB59321CDDE74176275;1309.
+(rerunfilecheck)             Checksum: B667A0478E6715136E9FEC213CCFAC11;1701.
  ) 
 Here is how much of TeX's memory you used:
- 11803 strings out of 480807
- 173654 string characters out of 2900560
- 679721 words of memory out of 3000000
- 29310 multiletter control sequences out of 15000+600000
+ 11869 strings out of 480807
+ 174459 string characters out of 2900560
+ 678721 words of memory out of 3000000
+ 29361 multiletter control sequences out of 15000+600000
  413574 words of font info for 47 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  60i,5n,66p,713b,1103s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -444,9 +510,9 @@ i600/ecbx1200.pk> </home/codert/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec
 /ec/dpi600/eccc2488.pk> </home/codert/.miktex/texmfs/data/fonts/pk/ljfour/jknap
 pen/ec/dpi600/ecrm1728.pk> </home/codert/.miktex/texmfs/data/fonts/pk/ljfour/jk
 nappen/ec/dpi600/ecbx2074.pk>
-Output written on Test.pdf (6 pages, 109759 bytes).
+Output written on Test.pdf (10 pages, 211741 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
