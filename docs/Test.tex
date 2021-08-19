@@ -7,6 +7,33 @@
 \usepackage{blindtext}
 \usepackage{setspace}
 \setstretch{1.5}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{  
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=false,                 
+    captionpos=b,                    
+    keepspaces=true,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1
+}
+
+
+\lstset{language=bash}
+\lstset{style=mystyle}
 
 
 \begin{document}
@@ -65,13 +92,27 @@
 			Se tomaron ciertas decisiones al momento de definir los tipos de datos. Para el alias se considera un texto de máximo 10 dígitos considerando espacios. El nombre deberá tener máximo una longitud de 30 caracteres y los apellidos una longitud máxima de 20 caracteres cada uno. La razón social no tiene un limite de caracteres y acepta la mayoría de los caracteres.
 			\\
 			El RFC tiene una longitud máxima de 13 caracteres ya que es la longitud máxima que puede tener un RFC en México. El número telefónico deberá tener una longitud de 10 dígitos debido a que es el nuevo estándar en México y el correo tendrá una longitud máxima de 50 caracteres considerando el dominio.
-			
 			En el apartado de seguridad la clave de accesos deberá tener máximo 50 caracteres y no debe tener espacios de preferencia.
 					
 			
 	\newpage	
-	\section{Instalación}
-	
+	\section{Instalación o ejecución}
+		Para este apartado se necesitara noción de comandos en Linux.
+		\subsection{Requisitos del sistema}		
+		Para la instalación y ejecución de este programa deberá tener instalado el software de control de versiones \textbf{git} y el interprete de Python en este caso en su versión \textbf{python3}. 
+		
+		\subsection{Descarga}		
+		Abriremos la terminal y nos dirigiremos a la ruta donde queremos guardar los archivos del programa. Una vez ubicados ahí ejecutaremos el siguiente comando para descargar todo lo necesario.
+		
+		\begin{lstlisting}
+		git clone https://github.com/jcontrerasroberto/isw-practica1.git
+		\end{lstlisting}
+		Después ingresaremos a la carpeta que contiene los archivos del programa
+		
+		\begin{lstlisting}
+		cd isw-practica1 
+		\end{lstlisting}
+		
 	\section{Ejecución y pruebas}
 	
 	\section{Consideraciones}
